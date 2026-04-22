@@ -1,0 +1,43 @@
+{
+    "name": "studyspace-project-2",
+    "version": "1.0.0",
+    "description": "IGME 430 Project 2 - StudySpace",
+    "main": "app.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --watch",
+        "start": "node ./app.js"
+       
+
+  },
+  "engines": {
+    "node": "22.x"
+    },
+    "type": "commonjs",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.8.1",
+        "connect-redis": "^8.1.0",
+        "cookie-parser": "^1.4.7",
+        "express": "^4.21.2",
+        "express-handlebars": "^8.0.1",
+        "express-session": "^1.18.1",
+        "mongoose": "^8.18.1",
+        "redis": "^5.8.2",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "serve-favicon": "^2.5.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.28.0",
+        "@babel/preset-env": "^7.28.0",
+        "@babel/preset-react": "^7.28.5",
+        "babel-loader": "^10.0.0",
+        "eslint": "^9.39.4",
+        "eslint-plugin-react": "^7.37.5",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "webpack": "^5.101.3",
+        "webpack-cli": "^6.0.1"
+    }
+}
